@@ -1,7 +1,7 @@
 #ex.2
 s = float(input("Digite seu salário: "))
 sal = s*0.05
-print ("Seu salário com comissão de 5% é de", (s+sal)
+print ("Seu salário com comissão de 5% é de", (s+sal))
 
 #ex.5
 dol = float(input("Quantos dolares você possui: "))

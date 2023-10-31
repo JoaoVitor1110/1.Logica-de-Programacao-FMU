@@ -1,7 +1,7 @@
 # 1- Criar um algoritmo que leia a idade de uma pessoa e informe sua classe eleitoral:
- •  não-eleitor (abaixo de 16 anos)
- •  eleitor obrigatório (entre 18 e 65 anos)
- •  eleitor facultativo (entre 16 e 18 anos e maior de 65 anos)
+# •  não-eleitor (abaixo de 16 anos)
+# •  eleitor obrigatório (entre 18 e 65 anos)
+# •  eleitor facultativo (entre 16 e 18 anos e maior de 65 anos)
 
 idade = int(input("Digite sua idade: "))
 if idade < 16:
@@ -10,7 +10,7 @@ elif idade < 18 or idade > 65:
     print("Facultativo: Vota se quiser")
 else:
     print('Obrigatório vá votar imediatamente')
-=====================================================================================
+#=====================================================================================
 #2- Ler três valores inteiros (variáveis a, b e c) e efetuar o cálculo da equação de segundo grau, apresentando: as duas raízes, quando for possível efetuar o cálculo (delta positivo ou zero); 
 #a mensagem "Não há raízes reais", se não for possível fazer o cálculo (delta negativo); 
 #e a mensagem "Não é equação do segundo grau", se o valor de a for igual a zero.
@@ -36,7 +36,7 @@ else:
     else:
         # Não há raízes reais
         print("Não há raízes reais")
-=====================================================================================
+#=====================================================================================
 #3- Um comerciante calcula o valor da venda, tendo em vista a tabela a seguir:
  
 #Crie uma programa que permita digitar o nome do produto e valor da compra, e imprimindo o nome do produto e o valor da venda.
@@ -56,7 +56,7 @@ elif valor < 50.0:
     print('Lucro de 40%:', valor*1.4)
 else: 
     print('Lucro de 30%:', valor*1.3)
-=====================================================================================
+#=====================================================================================
 #4- Elabore um programa em Python que implemente uma calculadora com as funções de somar, subtrair, multiplicar e dividir. 
 #O programa deverá solicitar ao usuário os dois valores, e perguntar qual a operação pretendida (‘+’, ‘-‘ , ‘*’ ou ‘/’ ) e a seguir calcular e mostrar o resultado.
 
